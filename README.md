@@ -4,15 +4,11 @@ This repository contains my solutions to a series of robotics homework assignmen
 
 ## Homework 1: Sonar-based Obstacle Rotation
 
-**Solution**: [Homework 1 Solution](/HW1)
-
 - In Homework 1, I worked with a wheeled robot equipped with sonar sensors. The robot had the capability to rotate in place and featured a sonar sensor array on top, providing distance measurements in four directions: front, back, left, and right. The goal of this assignment was to program the robot to always rotate towards the direction of the nearest obstacle. To achieve this, I used the robot's rotational capabilities and sonar sensor data. I leveraged the Robot Operating System (ROS) and related tools to develop a program that ensured the robot consistently rotated to position the closest obstacle directly behind it.
 
 **Report**: A detailed report is provided in the Homework 1 folder for more information.
 
-## Homework 2: Lidar-based Obstacle Avoidance and Mapping
-
-**Solution**: [Homework 2 Solution](/HW2)
+**Solution**: [Homework 2 Solution](/HW2-Lidar-based Obstacle Avoidance)
 
 In Homework 2, I tackled two key challenges:
 
@@ -24,8 +20,6 @@ In Homework 2, I tackled two key challenges:
 
 ## Homework 3: Geometric Path Following and Wall Following
 
-**Solution**: [Homework 3 Solution](/HW3)
-
 In Homework 3, I addressed the following tasks:
 
 - **PID Controller for Geometric Path Following**: I defined and fine-tuned a PID controller to control the robot's movement along a geometric path. The PID controller ensures that the robot follows the desired path accurately.
@@ -36,8 +30,6 @@ In Homework 3, I addressed the following tasks:
 
 ## Homework 4: Humanoid Robot Control and Maze Navigation
 
-**Solution**: [Homework 4 Solution](/HW4)
-
 In Homework 4, I worked on an exciting challenge:
 
 - **Humanoid Robot Control**: I controlled a TurtleBot3 robot with PID controller to follow humanoid robot which moved by keyboard . The objective was for the Burger robot to follow the humanoid robot.
@@ -46,7 +38,6 @@ In Homework 4, I worked on an exciting challenge:
 
 ## Final Projects: VFH Algorithm and Traffic Sign Detection
 
-**Solution**: [Final Projects Solution](/FinalProjects)
 
 The final projects were diverse and innovative:
 
