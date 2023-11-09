@@ -1,0 +1,8 @@
+prefix=/home/hosna/Desktop/catkin_ws/devel
+
+Name: hw0
+Description: Description of hw0
+Version: 0.0.0
+Cflags: -I/home/hosna/Desktop/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

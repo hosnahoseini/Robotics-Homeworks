@@ -1,0 +1,18 @@
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_stage_4.launch"/>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_gazebo_rviz.launch"/>
+
+  <node type="laser_scan_assembler" pkg="laser_assembler"
+    name="my_assembler">
+    <param name="max_scans" type="int" value="400" />
+    <param name="fixed_frame" type="string" value="odom" />
+  </node>
+  <node type ="laser2pc.py" pkg="ped_view" name="laser2pc" output="screen"/>
+</launch>
