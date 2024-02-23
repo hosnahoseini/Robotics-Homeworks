@@ -8,7 +8,7 @@ This repository contains my solutions to a series of robotics homework assignmen
 
 **Report**: A detailed report is provided in the Homework 1 folder for more information.
 
-**Solution**: [Homework 2 Solution](/HW2-Lidar-based Obstacle Avoidance)
+## Homework 2: Lidar-based Obstacle Avoidance
 
 In Homework 2, I tackled two key challenges:
 
